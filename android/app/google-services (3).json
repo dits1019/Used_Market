@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "882155123472",
+    "project_id": "usedmarket-a32e4",
+    "storage_bucket": "usedmarket-a32e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882155123472:android:231329e3dad51e6f1a6b95",
+        "android_client_info": {
+          "package_name": "com.example.used_market_app_ex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882155123472-gdhmvc3t5areiup57obgg0cj9l4sppkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6roQKw0mquVStBpbv8BCucCcX3fNfzcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882155123472-gdhmvc3t5areiup57obgg0cj9l4sppkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

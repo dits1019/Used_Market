@@ -35,7 +35,20 @@ class _ListPageState extends State<ListPage> {
 
 Widget _loadingPage() {
   return Center(
-    child: CircularProgressIndicator(),
+    child: Center(
+        child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text(
+          '올라온 물건이 없습니다.',
+          style: TextStyle(fontSize: 20),
+        ),
+        SizedBox(
+          height: 20,
+        ),
+        CircularProgressIndicator()
+      ],
+    )),
   );
 }
 

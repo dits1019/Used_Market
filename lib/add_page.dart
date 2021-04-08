@@ -84,11 +84,14 @@ class _AddPageState extends State<AddPage> {
                       ),
                     ),
                   )
-                : Image.file(
-                    _image,
-                    fit: BoxFit.cover,
-                    width: double.infinity,
-                    height: 300,
+                : InkWell(
+                    onTap: getImage,
+                    child: Image.file(
+                      _image,
+                      fit: BoxFit.cover,
+                      width: double.infinity,
+                      height: 300,
+                    ),
                   ),
           ),
           SizedBox(
